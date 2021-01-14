@@ -1,0 +1,41 @@
+*{
+    font-family:Helvetica;
+
+}
+/* comment way ctrl+k+c */
+/* # tag for id */
+div.box{
+    display:flex;
+    flex-direction: row;
+    color:goldenrod;
+}
+div.inner-box{
+    text-align: center;
+    vertical-align: top;
+    justify-content: center;
+    padding: 20px;
+   
+}
+div#big-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+div.header{/* you can use period to refer to a class */
+    display:flex;
+    flex-direction: row;
+    color:rgb(188, 122, 214);
+    border-style:solid;
+    border-width:2px;
+    border-radius:10px;
+    padding-left: 3vh;
+    background-color: rgb(210, 164, 231);
+    color: royalblue;
+    
+    
+}
+div#calorie-count-div{
+    text-align: center;
+    
+}
